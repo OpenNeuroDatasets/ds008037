@@ -1,0 +1,32 @@
+{
+  "block": {
+    "Description": "Original behavioural block index."
+  },
+  "set_size": {
+    "Description": "Number of items presented in each trial of the memory task."
+  },
+  "presented_color": {
+    "Description": "Color presented to the participant."
+  },
+  "presented_color_degree": {
+    "Description": "Degree of presented color on a circular color space.",
+    "Units": "degree"
+  },
+  "reported_color": {
+    "Description": "Color reported by the participant."
+  },
+  "reported_color_degree": {
+    "Description": "Degree of the reported color on a circular color space.",
+    "Units": "degree"
+  },
+  "non_target_color": {
+    "Description": "Non-target colors shown on the trial."
+  },
+  "non_target_color_degree": {
+    "Description": "Comma-separated list of the non-target colour values on the circular colour space, in degrees."
+  },
+  "target_color_degree": {
+    "Description": "Target color degree on the circular color space.",
+    "Units": "degree"
+  }
+}

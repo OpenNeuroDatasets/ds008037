@@ -1,0 +1,5 @@
+{
+  "EEGCoordinateSystem": "Other",
+  "EEGCoordinateUnits": "mm",
+  "EEGCoordinateSystemDescription": "Participant-specific digitized EEG electrode positions exported from Brainsight. The exported electrode files label the coordinate system as \"Subject Tracker\" and  units in millimetres. Coordinates should therefore be interpreted in the Brainsight Subject Tracker coordinate frame used at export. The electrode files themselves do not label these coordinates as MNI, template, NIfTI scanner, or individual anatomical MRI coordinates. If separate Brainsight registration or transform files are used to map these positions to MRI/MNI space, those transforms should be documented separately."
+}

@@ -1,0 +1,122 @@
+{
+  "TaskName": "CLT",
+  "Description": "Colour change-detection task with variable set sizes.",
+  "Columns": {
+    "participant_id": {
+      "Description": "BIDS participant identifier"
+    },
+    "trial_index": {
+      "Description": "Sequential trial number within the task"
+    },
+    "set_size": {
+      "Description": "Number of coloured stimuli presented"
+    },
+    "change_present": {
+      "Description": "1 = change occurred; 0 = no change"
+    },
+    "response": {
+      "Description": "1 = reported change present; 0 = reported no change"
+    },
+    "correct": {
+      "Description": "1 = correct; 0 = incorrect"
+    },
+    "rt": {
+      "Description": "Response time",
+      "Units": "s"
+    },
+    "Stim_color_1": {
+      "Description": "Stimulus colour at position 1"
+    },
+    "Probe_color_1": {
+      "Description": "Probe colour at position 1"
+    },
+    "Stim_color_2": {
+      "Description": "Stimulus colour at position 2"
+    },
+    "Probe_color_2": {
+      "Description": "Probe colour at position 2"
+    },
+    "Stim_color_3": {
+      "Description": "Stimulus colour at position 3"
+    },
+    "Probe_color_3": {
+      "Description": "Probe colour at position 3"
+    },
+    "Stim_color_4": {
+      "Description": "Stimulus colour at position 4"
+    },
+    "Probe_color_4": {
+      "Description": "Probe colour at position 4"
+    },
+    "Stim_color_5": {
+      "Description": "Stimulus colour at position 5"
+    },
+    "Probe_color_5": {
+      "Description": "Probe colour at position 5"
+    },
+    "Stim_color_6": {
+      "Description": "Stimulus colour at position 6"
+    },
+    "Probe_color_6": {
+      "Description": "Probe colour at position 6"
+    }
+  },
+  "participant_id": {
+    "Description": "BIDS participant identifier"
+  },
+  "trial_index": {
+    "Description": "Sequential trial number within the task"
+  },
+  "set_size": {
+    "Description": "Number of coloured stimuli presented"
+  },
+  "change_present": {
+    "Description": "1 = change occurred; 0 = no change"
+  },
+  "response": {
+    "Description": "1 = reported change present; 0 = reported no change"
+  },
+  "correct": {
+    "Description": "1 = correct; 0 = incorrect"
+  },
+  "rt": {
+    "Description": "Response time",
+    "Units": "s"
+  },
+  "Stim_color_1": {
+    "Description": "Stimulus colour at position 1"
+  },
+  "Stim_color_2": {
+    "Description": "Stimulus colour at position 2"
+  },
+  "Stim_color_3": {
+    "Description": "Stimulus colour at position 3"
+  },
+  "Stim_color_4": {
+    "Description": "Stimulus colour at position 4"
+  },
+  "Stim_color_5": {
+    "Description": "Stimulus colour at position 5"
+  },
+  "Stim_color_6": {
+    "Description": "Stimulus colour at position 6"
+  },
+  "Probe_color_1": {
+    "Description": "Probe colour at position 1"
+  },
+  "Probe_color_2": {
+    "Description": "Probe colour at position 2"
+  },
+  "Probe_color_3": {
+    "Description": "Probe colour at position 3"
+  },
+  "Probe_color_4": {
+    "Description": "Probe colour at position 4"
+  },
+  "Probe_color_5": {
+    "Description": "Probe colour at position 5"
+  },
+  "Probe_color_6": {
+    "Description": "Probe colour at position 6"
+  }
+}

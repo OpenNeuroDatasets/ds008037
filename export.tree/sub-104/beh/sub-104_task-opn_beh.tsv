@@ -1,0 +1,415 @@
+subject	phase	load	letter_shown	recalled_letters	math_problem	math_true_answer	math_decision	math_accuracy	accuracy	rt
+104	show_letter	2	F	n/a	0	0	n/a	0	0	800
+104	show_letter	2	P	n/a	0	0	n/a	0	0	800
+104	recall_letter	2	P	F	0	0	n/a	0	0	1880
+104	recall_letter	2	P	FP	0	0	n/a	0	0	1127
+104	recall_letter	2	P	FP	0	0	n/a	0	0	1132
+104	letter_feedback	2	P	FP	0	0	n/a	0	0	1500
+104	show_letter	2	Q	n/a	0	0	n/a	0	0	800
+104	show_letter	2	J	n/a	0	0	n/a	0	0	800
+104	recall_letter	2	J	Q	0	0	n/a	0	0	2035
+104	recall_letter	2	J	QJ	0	0	n/a	0	0	1101
+104	recall_letter	2	J	QJ	0	0	n/a	0	0	1188
+104	letter_feedback	2	J	QJ	0	0	n/a	0	0	1500
+104	show_letter	3	H	n/a	0	0	n/a	0	0	800
+104	show_letter	3	K	n/a	0	0	n/a	0	0	800
+104	show_letter	3	T	n/a	0	0	n/a	0	0	800
+104	recall_letter	3	T	H	0	0	n/a	0	0	1713
+104	recall_letter	3	T	HK	0	0	n/a	0	0	774
+104	recall_letter	3	T	HKT	0	0	n/a	0	0	769
+104	recall_letter	3	T	HKT	0	0	n/a	0	0	1252
+104	letter_feedback	3	T	HKT	0	0	n/a	0	0	1500
+104	show_letter	3	S	n/a	0	0	n/a	0	0	800
+104	show_letter	3	N	n/a	0	0	n/a	0	0	800
+104	show_letter	3	R	n/a	0	0	n/a	0	0	800
+104	recall_letter	3	R	S	0	0	n/a	0	0	1296
+104	recall_letter	3	R	SN	0	0	n/a	0	0	735
+104	recall_letter	3	R	SNR	0	0	n/a	0	0	563
+104	recall_letter	3	R	SNR	0	0	n/a	0	0	1413
+104	letter_feedback	3	R	SNR	0	0	n/a	0	0	1500
+104	prac_show_math	3	R	SNR	0	0	n/a	0	0	4296
+104	prac_solve_math	3	R	SNR	0	0	false	0	1	1182
+104	prac_show_math	3	R	SNR	0	0	n/a	0	0	2390
+104	prac_solve_math	3	R	SNR	0	0	false	0	1	871
+104	prac_show_math	3	R	SNR	0	0	n/a	0	0	1547
+104	prac_solve_math	3	R	SNR	0	0	true	0	1	684
+104	prac_show_math	3	R	SNR	0	0	n/a	0	0	1832
+104	prac_solve_math	3	R	SNR	0	0	true	0	1	670
+104	prac_show_math	3	R	SNR	0	0	n/a	0	0	1610
+104	prac_solve_math	3	R	SNR	0	0	true	0	1	714
+104	prac_show_math	3	R	SNR	0	0	n/a	0	0	1884
+104	prac_solve_math	3	R	SNR	0	0	false	0	1	728
+104	prac_show_math	3	R	SNR	0	0	n/a	0	0	1778
+104	prac_solve_math	3	R	SNR	0	0	true	0	1	650
+104	prac_show_math	3	R	SNR	0	0	n/a	0	0	1367
+104	prac_solve_math	3	R	SNR	0	0	true	0	1	607
+104	prac_show_math	3	R	SNR	0	0	n/a	0	0	1623
+104	prac_solve_math	3	R	SNR	0	0	true	0	1	749
+104	prac_show_math	3	R	SNR	0	0	n/a	0	0	1422
+104	prac_solve_math	3	R	SNR	0	0	true	0	1	717
+104	prac_show_math	3	R	SNR	0	0	n/a	0	0	2888
+104	prac_solve_math	3	R	SNR	0	0	true	0	1	620
+104	prac_show_math	3	R	SNR	0	0	n/a	0	0	1723
+104	prac_solve_math	3	R	SNR	0	0	false	0	1	726
+104	prac_show_math	3	R	SNR	0	0	n/a	0	0	1681
+104	prac_solve_math	3	R	SNR	0	0	false	0	1	1076
+104	prac_show_math	3	R	SNR	0	0	n/a	0	0	1449
+104	prac_solve_math	3	R	SNR	0	0	false	0	1	990
+104	prac_show_math	3	R	SNR	0	0	n/a	0	0	1630
+104	prac_solve_math	3	R	SNR	0	0	false	0	1	740
+104	show_math	2	R	n/a	(8/2) + 4	8	n/a	0	0	3138
+104	solve_math	2	R	n/a	(8/2) + 4	8	true	100	1	934
+104	show_letter	2	J	n/a	(8/2) + 4	8	n/a	100	0	800
+104	show_math	2	J	n/a	(1*5) + 6	11	n/a	100	0	2016
+104	solve_math	2	J	n/a	(1*5) + 6	11	false	100	1	743
+104	show_letter	2	S	n/a	(1*5) + 6	11	n/a	100	0	800
+104	recall_letter	2	S	J	(1*5) + 6	11	n/a	100	0	1984
+104	recall_letter	2	S	JS	(1*5) + 6	11	n/a	100	0	787
+104	recall_letter	2	S	JS	(1*5) + 6	11	n/a	100	0	565
+104	letter_feedback	2	S	JS	(1*5) + 6	11	n/a	100	0	1500
+104	show_math	2	S	n/a	(6/2) + 3	6	n/a	100	0	1977
+104	solve_math	2	S	n/a	(6/2) + 3	6	true	100	1	1041
+104	show_letter	2	F	n/a	(6/2) + 3	6	n/a	100	0	800
+104	show_math	2	F	n/a	(3*5) - 7	8	n/a	100	0	2048
+104	solve_math	2	F	n/a	(3*5) - 7	8	false	100	1	734
+104	show_letter	2	Q	n/a	(3*5) - 7	8	n/a	100	0	800
+104	recall_letter	2	Q	F	(3*5) - 7	8	n/a	100	0	1264
+104	recall_letter	2	Q	FQ	(3*5) - 7	8	n/a	100	0	624
+104	recall_letter	2	Q	FQ	(3*5) - 7	8	n/a	100	0	1024
+104	letter_feedback	2	Q	FQ	(3*5) - 7	8	n/a	100	0	1500
+104	show_math	2	Q	n/a	(6*2) - 2	10	n/a	100	0	1690
+104	solve_math	2	Q	n/a	(6*2) - 2	10	false	100	1	702
+104	show_letter	2	N	n/a	(6*2) - 2	10	n/a	100	0	800
+104	show_math	2	N	n/a	(4*2) + 1	9	n/a	100	0	1361
+104	solve_math	2	N	n/a	(4*2) + 1	9	false	100	1	787
+104	show_letter	2	P	n/a	(4*2) + 1	9	n/a	100	0	800
+104	recall_letter	2	P	N	(4*2) + 1	9	n/a	100	0	986
+104	recall_letter	2	P	NP	(4*2) + 1	9	n/a	100	0	941
+104	recall_letter	2	P	NP	(4*2) + 1	9	n/a	100	0	690
+104	letter_feedback	2	P	NP	(4*2) + 1	9	n/a	100	0	1500
+104	show_math	5	P	n/a	(4/1) + 2	6	n/a	0	0	2946
+104	solve_math	5	P	n/a	(4/1) + 2	6	true	100	1	684
+104	show_letter	5	S	n/a	(4/1) + 2	6	n/a	100	0	800
+104	show_math	5	S	n/a	(5*3) - 5	10	n/a	100	0	1321
+104	solve_math	5	S	n/a	(5*3) - 5	10	true	100	1	691
+104	show_letter	5	R	n/a	(5*3) - 5	10	n/a	100	0	800
+104	show_math	5	R	n/a	(3*3) + 5	14	n/a	100	0	1854
+104	solve_math	5	R	n/a	(3*3) + 5	14	false	100	1	563
+104	show_letter	5	F	n/a	(3*3) + 5	14	n/a	100	0	800
+104	show_math	5	F	n/a	(7/7) - 0	1	n/a	100	0	2324
+104	solve_math	5	F	n/a	(7/7) - 0	1	true	100	1	647
+104	show_letter	5	K	n/a	(7/7) - 0	1	n/a	100	0	800
+104	show_math	5	K	n/a	(2*2) + 8	12	n/a	100	0	2485
+104	solve_math	5	K	n/a	(2*2) + 8	12	false	100	1	657
+104	show_letter	5	Q	n/a	(2*2) + 8	12	n/a	100	0	800
+104	recall_letter	5	Q	S	(2*2) + 8	12	n/a	100	0	1183
+104	recall_letter	5	Q	SR	(2*2) + 8	12	n/a	100	0	882
+104	recall_letter	5	Q	SRF	(2*2) + 8	12	n/a	100	0	760
+104	recall_letter	5	Q	SRFK	(2*2) + 8	12	n/a	100	0	483
+104	recall_letter	5	Q	SRFKQ	(2*2) + 8	12	n/a	100	0	625
+104	recall_letter	5	Q	SRFKQ	(2*2) + 8	12	n/a	100	0	642
+104	letter_feedback	5	Q	SRFKQ	(2*2) + 8	12	n/a	100	0	1500
+104	show_math	3	Q	n/a	(1*9) + 1	10	n/a	100	0	1299
+104	solve_math	3	Q	n/a	(1*9) + 1	10	false	100	1	637
+104	show_letter	3	K	n/a	(1*9) + 1	10	n/a	100	0	800
+104	show_math	3	K	n/a	(3/3) + 1	2	n/a	100	0	1284
+104	solve_math	3	K	n/a	(3/3) + 1	2	false	100	1	1159
+104	show_letter	3	H	n/a	(3/3) + 1	2	n/a	100	0	800
+104	show_math	3	H	n/a	(4/4) - 0	1	n/a	100	0	1505
+104	solve_math	3	H	n/a	(4/4) - 0	1	true	100	1	804
+104	show_letter	3	N	n/a	(4/4) - 0	1	n/a	100	0	800
+104	recall_letter	3	N	K	(4/4) - 0	1	n/a	100	0	2115
+104	recall_letter	3	N	KH	(4/4) - 0	1	n/a	100	0	442
+104	recall_letter	3	N	KHN	(4/4) - 0	1	n/a	100	0	385
+104	recall_letter	3	N	KHN	(4/4) - 0	1	n/a	100	0	931
+104	letter_feedback	3	N	KHN	(4/4) - 0	1	n/a	100	0	1500
+104	show_math	4	N	n/a	(9/9) - 1	0	n/a	100	0	1968
+104	solve_math	4	N	n/a	(9/9) - 1	0	true	100	1	1465
+104	show_letter	4	Y	n/a	(9/9) - 1	0	n/a	100	0	800
+104	show_math	4	Y	n/a	(4/2) + 7	9	n/a	100	0	2319
+104	solve_math	4	Y	n/a	(4/2) + 7	9	false	100	1	722
+104	show_letter	4	L	n/a	(4/2) + 7	9	n/a	100	0	800
+104	show_math	4	L	n/a	(7*2) - 9	5	n/a	100	0	3236
+104	solve_math	4	L	n/a	(7*2) - 9	5	true	100	1	732
+104	show_letter	4	S	n/a	(7*2) - 9	5	n/a	100	0	800
+104	show_math	4	S	n/a	(3*2) - 6	0	n/a	100	0	2486
+104	solve_math	4	S	n/a	(3*2) - 6	0	true	100	1	731
+104	show_letter	4	Q	n/a	(3*2) - 6	0	n/a	100	0	800
+104	recall_letter	4	Q	Y	(3*2) - 6	0	n/a	100	0	2141
+104	recall_letter	4	Q	YL	(3*2) - 6	0	n/a	100	0	458
+104	recall_letter	4	Q	YLS	(3*2) - 6	0	n/a	100	0	793
+104	recall_letter	4	Q	YLSQ	(3*2) - 6	0	n/a	100	0	316
+104	recall_letter	4	Q	YLSQ	(3*2) - 6	0	n/a	100	0	777
+104	letter_feedback	4	Q	YLSQ	(3*2) - 6	0	n/a	100	0	1500
+104	show_math	3	Q	n/a	(5*2) - 6	4	n/a	100	0	2179
+104	solve_math	3	Q	n/a	(5*2) - 6	4	true	100	1	580
+104	show_letter	3	S	n/a	(5*2) - 6	4	n/a	100	0	800
+104	show_math	3	S	n/a	(9/1) + 6	15	n/a	100	0	2819
+104	solve_math	3	S	n/a	(9/1) + 6	15	false	100	1	644
+104	show_letter	3	N	n/a	(9/1) + 6	15	n/a	100	0	800
+104	show_math	3	N	n/a	(1*2) + 8	10	n/a	100	0	2097
+104	solve_math	3	N	n/a	(1*2) + 8	10	true	100	1	597
+104	show_letter	3	K	n/a	(1*2) + 8	10	n/a	100	0	800
+104	recall_letter	3	K	S	(1*2) + 8	10	n/a	100	0	1956
+104	recall_letter	3	K	SN	(1*2) + 8	10	n/a	100	0	545
+104	recall_letter	3	K	SNK	(1*2) + 8	10	n/a	100	0	637
+104	recall_letter	3	K	SNK	(1*2) + 8	10	n/a	100	0	797
+104	letter_feedback	3	K	SNK	(1*2) + 8	10	n/a	100	0	1500
+104	show_math	6	K	n/a	(1*4) - 4	0	n/a	100	0	1511
+104	solve_math	6	K	n/a	(1*4) - 4	0	false	100	1	995
+104	show_letter	6	F	n/a	(1*4) - 4	0	n/a	100	0	800
+104	show_math	6	F	n/a	(2/2) - 1	0	n/a	100	0	1842
+104	solve_math	6	F	n/a	(2/2) - 1	0	false	100	1	768
+104	show_letter	6	Y	n/a	(2/2) - 1	0	n/a	100	0	800
+104	show_math	6	Y	n/a	(9/3) - 3	0	n/a	100	0	1585
+104	solve_math	6	Y	n/a	(9/3) - 3	0	true	100	1	505
+104	show_letter	6	J	n/a	(9/3) - 3	0	n/a	100	0	800
+104	show_math	6	J	n/a	(8/8) - 1	0	n/a	100	0	1556
+104	solve_math	6	J	n/a	(8/8) - 1	0	true	100	1	581
+104	show_letter	6	L	n/a	(8/8) - 1	0	n/a	100	0	800
+104	show_math	6	L	n/a	(5/1) + 7	12	n/a	100	0	3343
+104	show_letter	6	T	n/a	(5/1) + 7	12	n/a	100	0	800
+104	show_math	6	T	n/a	(1*8) + 4	12	n/a	100	0	1800
+104	solve_math	6	T	n/a	(1*8) + 4	12	false	95	1	1240
+104	show_letter	6	P	n/a	(1*8) + 4	12	n/a	95	0	800
+104	recall_letter	6	P	F	(1*8) + 4	12	n/a	95	0	1519
+104	recall_letter	6	P	FY	(1*8) + 4	12	n/a	95	0	893
+104	recall_letter	6	P	FYJ	(1*8) + 4	12	n/a	95	0	866
+104	recall_letter	6	P	FYJT	(1*8) + 4	12	n/a	95	0	626
+104	recall_letter	6	P	FYJTP	(1*8) + 4	12	n/a	95	0	818
+104	recall_letter	6	P	FYJTP	(1*8) + 4	12	n/a	95	0	659
+104	letter_feedback	6	P	FYJTP	(1*8) + 4	12	n/a	95	0	1500
+104	show_math	3	P	n/a	(8/4) - 2	0	n/a	95	0	2339
+104	solve_math	3	P	n/a	(8/4) - 2	0	true	95	1	566
+104	show_letter	3	T	n/a	(8/4) - 2	0	n/a	95	0	800
+104	show_math	3	T	n/a	(5/5) + 3	4	n/a	95	0	1630
+104	solve_math	3	T	n/a	(5/5) + 3	4	false	96	1	772
+104	show_letter	3	Y	n/a	(5/5) + 3	4	n/a	96	0	800
+104	show_math	3	Y	n/a	(6/6) + 2	3	n/a	96	0	1549
+104	solve_math	3	Y	n/a	(6/6) + 2	3	false	96	1	678
+104	show_letter	3	K	n/a	(6/6) + 2	3	n/a	96	0	800
+104	recall_letter	3	K	T	(6/6) + 2	3	n/a	96	0	1722
+104	recall_letter	3	K	TY	(6/6) + 2	3	n/a	96	0	495
+104	recall_letter	3	K	TYK	(6/6) + 2	3	n/a	96	0	462
+104	recall_letter	3	K	TYK	(6/6) + 2	3	n/a	96	0	598
+104	letter_feedback	3	K	TYK	(6/6) + 2	3	n/a	96	0	1500
+104	show_math	7	K	n/a	(1*6) + 1	7	n/a	96	0	2655
+104	solve_math	7	K	n/a	(1*6) + 1	7	true	96	1	742
+104	show_letter	7	Q	n/a	(1*6) + 1	7	n/a	96	0	800
+104	show_math	7	Q	n/a	(8*2) + 9	25	n/a	96	0	1592
+104	solve_math	7	Q	n/a	(8*2) + 9	25	true	96	1	680
+104	show_letter	7	S	n/a	(8*2) + 9	25	n/a	96	0	800
+104	show_math	7	S	n/a	(1*7) - 5	2	n/a	96	0	2243
+104	solve_math	7	S	n/a	(1*7) - 5	2	false	96	1	714
+104	show_letter	7	K	n/a	(1*7) - 5	2	n/a	96	0	800
+104	show_math	7	K	n/a	(1/1) + 1	2	n/a	96	0	2004
+104	solve_math	7	K	n/a	(1/1) + 1	2	false	96	1	676
+104	show_letter	7	R	n/a	(1/1) + 1	2	n/a	96	0	800
+104	show_math	7	R	n/a	(3/1) + 5	8	n/a	96	0	2561
+104	solve_math	7	R	n/a	(3/1) + 5	8	false	97	1	618
+104	show_letter	7	T	n/a	(3/1) + 5	8	n/a	97	0	800
+104	show_math	7	T	n/a	(2*7) - 3	11	n/a	97	0	2033
+104	solve_math	7	T	n/a	(2*7) - 3	11	true	97	1	807
+104	show_letter	7	P	n/a	(2*7) - 3	11	n/a	97	0	800
+104	show_math	7	P	n/a	(3*4) + 9	21	n/a	97	0	2414
+104	solve_math	7	P	n/a	(3*4) + 9	21	false	97	1	558
+104	show_letter	7	H	n/a	(3*4) + 9	21	n/a	97	0	800
+104	recall_letter	7	H	Q	(3*4) + 9	21	n/a	97	0	5319
+104	recall_letter	7	H	QS	(3*4) + 9	21	n/a	97	0	936
+104	recall_letter	7	H	QSK	(3*4) + 9	21	n/a	97	0	469
+104	recall_letter	7	H	QSKR	(3*4) + 9	21	n/a	97	0	716
+104	recall_letter	7	H	QSKRT	(3*4) + 9	21	n/a	97	0	728
+104	recall_letter	7	H	QSKRTP	(3*4) + 9	21	n/a	97	0	749
+104	recall_letter	7	H	QSKRTP	(3*4) + 9	21	n/a	97	0	3745
+104	letter_feedback	7	H	QSKRTP	(3*4) + 9	21	n/a	97	0	1500
+104	show_math	4	H	n/a	(4*3) - 8	4	n/a	97	0	2368
+104	solve_math	4	H	n/a	(4*3) - 8	4	false	97	1	977
+104	show_letter	4	S	n/a	(4*3) - 8	4	n/a	97	0	800
+104	show_math	4	S	n/a	(2*4) + 6	14	n/a	97	0	1881
+104	solve_math	4	S	n/a	(2*4) + 6	14	true	97	1	630
+104	show_letter	4	N	n/a	(2*4) + 6	14	n/a	97	0	800
+104	show_math	4	N	n/a	(2*6) + 5	17	n/a	97	0	2044
+104	solve_math	4	N	n/a	(2*6) + 5	17	true	97	1	481
+104	show_letter	4	Y	n/a	(2*6) + 5	17	n/a	97	0	800
+104	show_math	4	Y	n/a	(6/1) + 7	13	n/a	97	0	1901
+104	solve_math	4	Y	n/a	(6/1) + 7	13	true	97	1	457
+104	show_letter	4	Q	n/a	(6/1) + 7	13	n/a	97	0	800
+104	recall_letter	4	Q	S	(6/1) + 7	13	n/a	97	0	1286
+104	recall_letter	4	Q	SN	(6/1) + 7	13	n/a	97	0	741
+104	recall_letter	4	Q	SNY	(6/1) + 7	13	n/a	97	0	369
+104	recall_letter	4	Q	SNYQ	(6/1) + 7	13	n/a	97	0	443
+104	recall_letter	4	Q	SNYQ	(6/1) + 7	13	n/a	97	0	763
+104	letter_feedback	4	Q	SNYQ	(6/1) + 7	13	n/a	97	0	1500
+104	show_math	6	Q	n/a	(7/1) - 5	2	n/a	97	0	2046
+104	solve_math	6	Q	n/a	(7/1) - 5	2	true	97	1	500
+104	show_letter	6	F	n/a	(7/1) - 5	2	n/a	97	0	800
+104	show_math	6	F	n/a	(8/1) + 4	12	n/a	97	0	1535
+104	solve_math	6	F	n/a	(8/1) + 4	12	false	97	1	1049
+104	show_letter	6	H	n/a	(8/1) + 4	12	n/a	97	0	800
+104	show_math	6	H	n/a	(2/1) - 2	0	n/a	97	0	1838
+104	solve_math	6	H	n/a	(2/1) - 2	0	false	97	1	909
+104	show_letter	6	S	n/a	(2/1) - 2	0	n/a	97	0	800
+104	show_math	6	S	n/a	(2*3) - 6	0	n/a	97	0	1737
+104	solve_math	6	S	n/a	(2*3) - 6	0	true	97	1	515
+104	show_letter	6	N	n/a	(2*3) - 6	0	n/a	97	0	800
+104	show_math	6	N	n/a	(2*5) + 4	14	n/a	97	0	1780
+104	solve_math	6	N	n/a	(2*5) + 4	14	true	98	1	709
+104	show_letter	6	Q	n/a	(2*5) + 4	14	n/a	98	0	800
+104	show_math	6	Q	n/a	(1*3) - 3	0	n/a	98	0	1704
+104	solve_math	6	Q	n/a	(1*3) - 3	0	true	98	1	459
+104	show_letter	6	R	n/a	(1*3) - 3	0	n/a	98	0	800
+104	recall_letter	6	R	F	(1*3) - 3	0	n/a	98	0	1417
+104	recall_letter	6	R	FH	(1*3) - 3	0	n/a	98	0	1123
+104	recall_letter	6	R	FHS	(1*3) - 3	0	n/a	98	0	1032
+104	recall_letter	6	R	FHSN	(1*3) - 3	0	n/a	98	0	728
+104	recall_letter	6	R	FHSNQ	(1*3) - 3	0	n/a	98	0	564
+104	recall_letter	6	R	FHSNQR	(1*3) - 3	0	n/a	98	0	774
+104	recall_letter	6	R	FHSNQR	(1*3) - 3	0	n/a	98	0	810
+104	letter_feedback	6	R	FHSNQR	(1*3) - 3	0	n/a	98	0	1500
+104	show_math	5	R	n/a	(6/3) - 2	0	n/a	98	0	1332
+104	solve_math	5	R	n/a	(6/3) - 2	0	false	98	1	606
+104	show_letter	5	J	n/a	(6/3) - 2	0	n/a	98	0	800
+104	show_math	5	J	n/a	(1/1) + 6	7	n/a	98	0	1820
+104	solve_math	5	J	n/a	(1/1) + 6	7	false	98	1	620
+104	show_letter	5	S	n/a	(1/1) + 6	7	n/a	98	0	800
+104	show_math	5	S	n/a	(1*9) - 5	4	n/a	98	0	1394
+104	solve_math	5	S	n/a	(1*9) - 5	4	false	98	1	650
+104	show_letter	5	L	n/a	(1*9) - 5	4	n/a	98	0	800
+104	show_math	5	L	n/a	(9/3) - 1	2	n/a	98	0	2943
+104	solve_math	5	L	n/a	(9/3) - 1	2	true	98	1	826
+104	show_letter	5	Q	n/a	(9/3) - 1	2	n/a	98	0	800
+104	show_math	5	Q	n/a	(1*4) + 1	5	n/a	98	0	1528
+104	solve_math	5	Q	n/a	(1*4) + 1	5	true	98	1	730
+104	show_letter	5	R	n/a	(1*4) + 1	5	n/a	98	0	800
+104	recall_letter	5	R	J	(1*4) + 1	5	n/a	98	0	1532
+104	recall_letter	5	R	JS	(1*4) + 1	5	n/a	98	0	1097
+104	recall_letter	5	R	JSL	(1*4) + 1	5	n/a	98	0	479
+104	recall_letter	5	R	JSLN	(1*4) + 1	5	n/a	98	0	4317
+104	recall_letter	5	R	JSLNQ	(1*4) + 1	5	n/a	98	0	581
+104	recall_letter	5	R	JSLNQ	(1*4) + 1	5	n/a	98	0	552
+104	letter_feedback	5	R	JSLNQ	(1*4) + 1	5	n/a	98	0	1500
+104	show_math	7	R	n/a	(4*3) + 1	13	n/a	98	0	1835
+104	solve_math	7	R	n/a	(4*3) + 1	13	true	98	1	674
+104	show_letter	7	F	n/a	(4*3) + 1	13	n/a	98	0	800
+104	show_math	7	F	n/a	(3*2) - 3	3	n/a	98	0	1646
+104	solve_math	7	F	n/a	(3*2) - 3	3	false	98	1	812
+104	show_letter	7	K	n/a	(3*2) - 3	3	n/a	98	0	800
+104	show_math	7	K	n/a	(6/6) - 1	0	n/a	98	0	1842
+104	solve_math	7	K	n/a	(6/6) - 1	0	false	98	1	1096
+104	show_letter	7	P	n/a	(6/6) - 1	0	n/a	98	0	800
+104	show_math	7	P	n/a	(3/1) + 9	12	n/a	98	0	2700
+104	solve_math	7	P	n/a	(3/1) + 9	12	true	98	1	801
+104	show_letter	7	L	n/a	(3/1) + 9	12	n/a	98	0	800
+104	show_math	7	L	n/a	(3*5) + 1	16	n/a	98	0	1423
+104	solve_math	7	L	n/a	(3*5) + 1	16	true	98	1	1341
+104	show_letter	7	H	n/a	(3*5) + 1	16	n/a	98	0	800
+104	show_math	7	H	n/a	(3*4) + 6	18	n/a	98	0	1616
+104	solve_math	7	H	n/a	(3*4) + 6	18	false	98	1	974
+104	show_letter	7	Y	n/a	(3*4) + 6	18	n/a	98	0	800
+104	show_math	7	Y	n/a	(2*2) + 2	6	n/a	98	0	2567
+104	solve_math	7	Y	n/a	(2*2) + 2	6	false	98	1	681
+104	show_letter	7	T	n/a	(2*2) + 2	6	n/a	98	0	800
+104	recall_letter	7	T	F	(2*2) + 2	6	n/a	98	0	1069
+104	recall_letter	7	T	FK	(2*2) + 2	6	n/a	98	0	1412
+104	recall_letter	7	T	FKP	(2*2) + 2	6	n/a	98	0	1910
+104	recall_letter	7	T	FKPL	(2*2) + 2	6	n/a	98	0	581
+104	recall_letter	7	T	FKPLH	(2*2) + 2	6	n/a	98	0	583
+104	recall_letter	7	T	FKPLHY	(2*2) + 2	6	n/a	98	0	633
+104	recall_letter	7	T	FKPLHYT	(2*2) + 2	6	n/a	98	0	601
+104	recall_letter	7	T	FKPLHYT	(2*2) + 2	6	n/a	98	0	531
+104	letter_feedback	7	T	FKPLHYT	(2*2) + 2	6	n/a	98	0	1500
+104	show_math	5	T	n/a	(3/3) - 0	1	n/a	98	0	1784
+104	solve_math	5	T	n/a	(3/3) - 0	1	false	98	1	623
+104	show_letter	5	J	n/a	(3/3) - 0	1	n/a	98	0	800
+104	show_math	5	J	n/a	(2*4) + 7	15	n/a	98	0	1270
+104	solve_math	5	J	n/a	(2*4) + 7	15	true	98	1	603
+104	show_letter	5	T	n/a	(2*4) + 7	15	n/a	98	0	800
+104	show_math	5	T	n/a	(6/3) - 0	2	n/a	98	0	1768
+104	solve_math	5	T	n/a	(6/3) - 0	2	true	98	1	457
+104	show_letter	5	S	n/a	(6/3) - 0	2	n/a	98	0	800
+104	show_math	5	S	n/a	(8/2) - 1	3	n/a	98	0	2494
+104	solve_math	5	S	n/a	(8/2) - 1	3	false	98	1	1033
+104	show_letter	5	K	n/a	(8/2) - 1	3	n/a	98	0	800
+104	show_math	5	K	n/a	(5*2) - 5	5	n/a	98	0	2488
+104	solve_math	5	K	n/a	(5*2) - 5	5	false	98	1	581
+104	show_letter	5	P	n/a	(5*2) - 5	5	n/a	98	0	800
+104	recall_letter	5	P	J	(5*2) - 5	5	n/a	98	0	2493
+104	recall_letter	5	P	JT	(5*2) - 5	5	n/a	98	0	845
+104	recall_letter	5	P	JTS	(5*2) - 5	5	n/a	98	0	533
+104	recall_letter	5	P	JTSK	(5*2) - 5	5	n/a	98	0	737
+104	recall_letter	5	P	JTSKP	(5*2) - 5	5	n/a	98	0	861
+104	recall_letter	5	P	JTSKP	(5*2) - 5	5	n/a	98	0	685
+104	letter_feedback	5	P	JTSKP	(5*2) - 5	5	n/a	98	0	1500
+104	show_math	7	P	n/a	(4/4) + 1	2	n/a	98	0	1612
+104	solve_math	7	P	n/a	(4/4) + 1	2	false	98	1	730
+104	show_letter	7	K	n/a	(4/4) + 1	2	n/a	98	0	800
+104	show_math	7	K	n/a	(7/7) - 1	0	n/a	98	0	3316
+104	solve_math	7	K	n/a	(7/7) - 1	0	true	98	1	680
+104	show_letter	7	F	n/a	(7/7) - 1	0	n/a	98	0	800
+104	show_math	7	F	n/a	(2*6) + 5	17	n/a	98	0	1036
+104	solve_math	7	F	n/a	(2*6) + 5	17	false	98	1	682
+104	show_letter	7	P	n/a	(2*6) + 5	17	n/a	98	0	800
+104	show_math	7	P	n/a	(2*7) + 8	22	n/a	98	0	1813
+104	solve_math	7	P	n/a	(2*7) + 8	22	false	98	1	869
+104	show_letter	7	S	n/a	(2*7) + 8	22	n/a	98	0	800
+104	show_math	7	S	n/a	(7*2) - 8	6	n/a	98	0	2937
+104	solve_math	7	S	n/a	(7*2) - 8	6	true	98	1	837
+104	show_letter	7	Q	n/a	(7*2) - 8	6	n/a	98	0	800
+104	show_math	7	Q	n/a	(1*7) + 7	14	n/a	98	0	2427
+104	solve_math	7	Q	n/a	(1*7) + 7	14	true	98	1	475
+104	show_letter	7	N	n/a	(1*7) + 7	14	n/a	98	0	800
+104	show_math	7	N	n/a	(8/1) + 6	14	n/a	98	0	2055
+104	solve_math	7	N	n/a	(8/1) + 6	14	true	98	1	492
+104	show_letter	7	J	n/a	(8/1) + 6	14	n/a	98	0	800
+104	recall_letter	7	J	K	(8/1) + 6	14	n/a	98	0	865
+104	recall_letter	7	J	KF	(8/1) + 6	14	n/a	98	0	655
+104	recall_letter	7	J	KFP	(8/1) + 6	14	n/a	98	0	3239
+104	recall_letter	7	J	KFPS	(8/1) + 6	14	n/a	98	0	585
+104	recall_letter	7	J	KFPSQ	(8/1) + 6	14	n/a	98	0	443
+104	recall_letter	7	J	KFPSQN	(8/1) + 6	14	n/a	98	0	507
+104	recall_letter	7	J	KFPSQNJ	(8/1) + 6	14	n/a	98	0	921
+104	recall_letter	7	J	KFPSQNJ	(8/1) + 6	14	n/a	98	0	894
+104	letter_feedback	7	J	KFPSQNJ	(8/1) + 6	14	n/a	98	0	1500
+104	show_math	6	J	n/a	(4/1) - 3	1	n/a	98	0	2052
+104	solve_math	6	J	n/a	(4/1) - 3	1	false	98	1	922
+104	show_letter	6	S	n/a	(4/1) - 3	1	n/a	98	0	800
+104	show_math	6	S	n/a	(4/2) + 5	7	n/a	98	0	1932
+104	solve_math	6	S	n/a	(4/2) + 5	7	true	99	1	623
+104	show_letter	6	T	n/a	(4/2) + 5	7	n/a	99	0	800
+104	show_math	6	T	n/a	(9/9) + 3	4	n/a	99	0	3343
+104	show_letter	6	P	n/a	(9/9) + 3	4	n/a	99	0	800
+104	show_math	6	P	n/a	(8*2) - 9	7	n/a	99	0	1753
+104	solve_math	6	P	n/a	(8*2) - 9	7	true	97	1	1066
+104	show_letter	6	Y	n/a	(8*2) - 9	7	n/a	97	0	800
+104	show_math	6	Y	n/a	(1*2) - 0	2	n/a	97	0	2016
+104	solve_math	6	Y	n/a	(1*2) - 0	2	false	97	1	719
+104	show_letter	6	N	n/a	(1*2) - 0	2	n/a	97	0	800
+104	show_math	6	N	n/a	(7/1) + 3	10	n/a	97	0	2201
+104	solve_math	6	N	n/a	(7/1) + 3	10	false	97	1	833
+104	show_letter	6	F	n/a	(7/1) + 3	10	n/a	97	0	800
+104	recall_letter	6	F	S	(7/1) + 3	10	n/a	97	0	1183
+104	recall_letter	6	F	ST	(7/1) + 3	10	n/a	97	0	322
+104	recall_letter	6	F	STP	(7/1) + 3	10	n/a	97	0	327
+104	recall_letter	6	F	STPY	(7/1) + 3	10	n/a	97	0	626
+104	recall_letter	6	F	STPYN	(7/1) + 3	10	n/a	97	0	475
+104	recall_letter	6	F	STPYNF	(7/1) + 3	10	n/a	97	0	826
+104	recall_letter	6	F	STPYNF	(7/1) + 3	10	n/a	97	0	499
+104	letter_feedback	6	F	STPYNF	(7/1) + 3	10	n/a	97	0	1500
+104	show_math	4	F	n/a	(5/5) + 5	6	n/a	97	0	1897
+104	solve_math	4	F	n/a	(5/5) + 5	6	true	97	1	548
+104	show_letter	4	S	n/a	(5/5) + 5	6	n/a	97	0	800
+104	show_math	4	S	n/a	(2*5) - 8	2	n/a	97	0	1230
+104	solve_math	4	S	n/a	(2*5) - 8	2	false	97	1	795
+104	show_letter	4	L	n/a	(2*5) - 8	2	n/a	97	0	800
+104	show_math	4	L	n/a	(1*6) + 4	10	n/a	97	0	1091
+104	solve_math	4	L	n/a	(1*6) + 4	10	true	97	1	926
+104	show_letter	4	P	n/a	(1*6) + 4	10	n/a	97	0	800
+104	show_math	4	P	n/a	(5/1) + 2	7	n/a	97	0	1697
+104	solve_math	4	P	n/a	(5/1) + 2	7	true	97	1	452
+104	show_letter	4	F	n/a	(5/1) + 2	7	n/a	97	0	800
+104	recall_letter	4	F	S	(5/1) + 2	7	n/a	97	0	1177
+104	recall_letter	4	F	SL	(5/1) + 2	7	n/a	97	0	509
+104	recall_letter	4	F	SLP	(5/1) + 2	7	n/a	97	0	514
+104	recall_letter	4	F	SLPF	(5/1) + 2	7	n/a	97	0	615
+104	recall_letter	4	F	SLPF	(5/1) + 2	7	n/a	97	0	600
+104	letter_feedback	4	F	SLPF	(5/1) + 2	7	n/a	97	0	1500

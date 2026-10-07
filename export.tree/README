@@ -1,0 +1,7 @@
+This dataset contains behavioural, resting-state EEG, working-memory EEG, and TMS-EEG data from healthy adult participants.
+
+The dataset includes behavioural task files and EEG data organised according to the Brain Imaging Data Structure (BIDS). Tasks include resting state, working memory, TMS-EEG, and cognitive/behavioural tasks.
+
+Participants are identified using anonymised subject labels. No directly identifying information is included.
+
+For details of the experimental procedures, task descriptions, preprocessing status, and data quality checks, please refer to the associated dataset manuscript.

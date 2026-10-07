@@ -1,0 +1,127 @@
+{
+  "BIDSVersion": "1.9.0",
+  "TaskName": "opn",
+  "LongName": "Operation Span (OSPAN) \u2013 dual-task letters + math (Inquisit 5)",
+  "Instructions": "Remember letters in order. Between letters, evaluate math statements as TRUE or FALSE. At recall, select letters in the order presented.",
+  "TaskDescription": "Operation span task combining letter memoranda with intervening math verification trials. Participants viewed and remembered letters, completed math true/false decisions, and then recalled the letters in serial order. Set sizes ranged from 3 to 7 items.",
+  "Columns": {
+    "subject": {
+      "Description": "Numeric subject identifier for this dataset"
+    },
+    "phase": {
+      "Description": "Task phase/event",
+      "Levels": {
+        "show_letter": "Letter presentation",
+        "recall_letter": "Recall screen",
+        "show_math": "Math statement on screen",
+        "solve_math": "TRUE/FALSE decision on the statement"
+      }
+    },
+    "load": {
+      "Description": "Set size (number of letters in the current sequence)",
+      "Units": "items"
+    },
+    "letter_shown": {
+      "Description": "Letter displayed during show_letter"
+    },
+    "recalled_letters": {
+      "Description": "Sequence reported at recall (concatenated letters)"
+    },
+    "math_problem": {
+      "Description": "Equation string displayed during show_math"
+    },
+    "math_true_answer": {
+      "Description": "Ground-truth correctness of the equation (1=true, 0=false)",
+      "Levels": [
+        {
+          "Code": 1,
+          "Label": "true"
+        },
+        {
+          "Code": 0,
+          "Label": "false"
+        }
+      ]
+    },
+    "math_decision": {
+      "Description": "Participant decision during solve_math",
+      "Levels": {
+        "true": "endorsed as true",
+        "false": "endorsed as false"
+      }
+    },
+    "math_accuracy": {
+      "Description": "Per-trial math accuracy",
+      "Units": "percent"
+    },
+    "accuracy": {
+      "Description": "Event-level accuracy flag",
+      "Levels": [
+        {
+          "Code": 1,
+          "Label": "correct"
+        },
+        {
+          "Code": 0,
+          "Label": "incorrect"
+        }
+      ]
+    },
+    "rt": {
+      "Description": "Latency for the event",
+      "Units": "ms"
+    }
+  },
+  "ConverterName": "opn_beh2bids_selected",
+  "ConverterVersion": "v1.3_fixedIDs",
+  "subject": {
+    "Description": "Numeric subject identifier for this dataset"
+  },
+  "phase": {
+    "Description": "Operation span task phase, such as letter presentation, math decision, feedback, or recall phase."
+  },
+  "load": {
+    "Description": "Set size (number of letters in the current sequence)",
+    "Units": "items"
+  },
+  "letter_shown": {
+    "Description": "Letter displayed during show_letter"
+  },
+  "recalled_letters": {
+    "Description": "Sequence reported at recall (concatenated letters)"
+  },
+  "math_problem": {
+    "Description": "Equation string displayed during show_math"
+  },
+  "math_true_answer": {
+    "Description": "Correct numerical answer to the math problem."
+  },
+  "math_decision": {
+    "Description": "Participant decision during solve_math",
+    "Levels": {
+      "true": "endorsed as true",
+      "false": "endorsed as false"
+    }
+  },
+  "math_accuracy": {
+    "Description": "Per-trial math accuracy",
+    "Units": "percent"
+  },
+  "accuracy": {
+    "Description": "Event-level accuracy flag",
+    "Levels": [
+      {
+        "Code": 1,
+        "Label": "correct"
+      },
+      {
+        "Code": 0,
+        "Label": "incorrect"
+      }
+    ]
+  },
+  "rt": {
+    "Description": "Latency for the event",
+    "Units": "ms"
+  }
+}

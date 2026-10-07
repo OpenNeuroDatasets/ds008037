@@ -1,0 +1,24 @@
+{
+  "name": {
+    "Description": "Channel name."
+  },
+  "type": {
+    "Description": "Channel type."
+  },
+  "units": {
+    "Description": "Physical unit of the channel data."
+  },
+  "reference": {
+    "Description": "Recording reference used for this channel."
+  },
+  "status": {
+    "Description": "Channel status in this dataset.",
+    "Levels": {
+      "good": "Channel included in the dataset.",
+      "bad": "Channel identified as bad or excluded from standard analysis."
+    }
+  },
+  "status_description": {
+    "Description": "Additional information about the channel status. Values are reported as n/a when no additional status information is provided."
+  }
+}

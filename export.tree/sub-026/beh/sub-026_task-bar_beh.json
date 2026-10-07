@@ -1,0 +1,38 @@
+{
+  "trial": {
+    "Description": "1-based trial index"
+  },
+  "load": {
+    "Description": "Working memory load, defined as the number of bars.",
+    "Levels": {
+      "4": "4 bars",
+      "6": "6 bars"
+    }
+  },
+  "change_present": {
+    "Description": "Whether the probe differed from the memory set.",
+    "Levels": {
+      "0": "No change.",
+      "1": "Change."
+    }
+  },
+  "response": {
+    "Description": "Participant keyboard response key. The m key indicates that the participant responded no change. The z key indicates that the participant responded change.",
+    "Levels": {
+      "m": "Participant responded no change.",
+      "z": "Participant responded change."
+    }
+  },
+  "rt": {
+    "Description": "Reaction time relative to probe onset",
+    "Units": "s"
+  },
+  "probe_onset": {
+    "Description": "Probe onset time (task clock)",
+    "Units": "s"
+  },
+  "response_onset": {
+    "Description": "Button press time (task clock)",
+    "Units": "s"
+  }
+}

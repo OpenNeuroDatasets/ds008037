@@ -1,0 +1,26 @@
+{
+  "EEGCoordinateSystem": "Other",
+  "EEGCoordinateUnits": "mm",
+  "EEGCoordinateSystemDescription": "Participant-specific digitized EEG electrode positions exported from Brainsight. The exported electrode files label the coordinate system as \"Subject Tracker\" and  units in millimetres. Coordinates should therefore be interpreted in the Brainsight Subject Tracker coordinate frame used at export. The electrode files themselves do not label these coordinates as MNI, template, NIfTI scanner, or individual anatomical MRI coordinates. If separate Brainsight registration or transform files are used to map these positions to MRI/MNI space, those transforms should be documented separately.",
+  "AnatomicalLandmarkCoordinates": {
+    "NAS": [
+      -9.024,
+      98.123,
+      -91.706
+    ],
+    "LPA": [
+      -49.994,
+      77.193,
+      -202.283
+    ],
+    "RPA": [
+      66.354,
+      30.907,
+      -163.89
+    ]
+  },
+  "AnatomicalLandmarkCoordinateSystem": "Other",
+  "AnatomicalLandmarkCoordinateUnits": "mm",
+  "AnatomicalLandmarkCoordinateSystemDescription": "Participant-specific digitized EEG electrode positions exported from Brainsight. The exported electrode files label the coordinate system as \"Subject Tracker\" and  units in millimetres. Coordinates should therefore be interpreted in the Brainsight Subject Tracker coordinate frame used at export. The electrode files themselves do not label these coordinates as MNI, template, NIfTI scanner, or individual anatomical MRI coordinates. If separate Brainsight registration or transform files are used to map these positions to MRI/MNI space, those transforms should be documented separately.",
+  "FiducialsDescription": "Nasion, left ear/LPA, and right ear/RPA landmarks were digitized with the same Brainsight system and are represented in the same coordinate frame as the EEG electrode positions."
+}

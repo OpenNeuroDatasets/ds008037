@@ -1,0 +1,72 @@
+{
+  "BIDSVersion": "1.9.0",
+  "TaskName": "smt",
+  "LongName": "Simon Task (color-location conflict; Inquisit 5)",
+  "Instructions": "Respond to the color of the square (A=blue, L=red). Ignore its location (left/right). Trials are congruent when location matches response side, incongruent otherwise.",
+  "Columns": {
+    "participant_id": {
+      "Description": "BIDS participant ID (padded 3-digit)"
+    },
+    "run": {
+      "Description": "Run index"
+    },
+    "trial_index": {
+      "Description": "Within-run trial number"
+    },
+    "congruence": {
+      "Description": "Stimulus-response congruency",
+      "Levels": {
+        "congruent": "location matches response side",
+        "incongruent": "location conflicts with response side"
+      }
+    },
+    "stim_color": {
+      "Description": "Stimulus color (red/blue)"
+    },
+    "stim_side": {
+      "Description": "Stimulus horizontal position (left/right)"
+    },
+    "response_key": {
+      "Description": "Raw keycode recorded by Inquisit"
+    },
+    "accuracy": {
+      "Description": "Correctness (1=correct, 0=incorrect)"
+    },
+    "rt": {
+      "Description": "Reaction time from stimulus onset",
+      "Units": "ms"
+    }
+  },
+  "participant_id": {
+    "Description": "BIDS participant ID (padded 3-digit)"
+  },
+  "run": {
+    "Description": "Run index"
+  },
+  "trial_index": {
+    "Description": "Within-run trial number"
+  },
+  "congruence": {
+    "Description": "Stimulus-response congruency",
+    "Levels": {
+      "congruent": "location matches response side",
+      "incongruent": "location conflicts with response side"
+    }
+  },
+  "stim_side": {
+    "Description": "Stimulus horizontal position (left/right)"
+  },
+  "stim_color": {
+    "Description": "Stimulus color (red/blue)"
+  },
+  "response_key": {
+    "Description": "Raw keycode recorded by Inquisit"
+  },
+  "accuracy": {
+    "Description": "Correctness (1=correct, 0=incorrect)"
+  },
+  "rt": {
+    "Description": "Reaction time from stimulus onset",
+    "Units": "ms"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "TaskName": "StopSignal",
+  "Columns": {
+    "participant_id": {
+      "Description": "BIDS participant identifier"
+    },
+    "block": {
+      "Description": "Block index or name from task"
+    },
+    "trial_index": {
+      "Description": "Within-subject sequential trial index (after filtering practice)"
+    },
+    "trial_type": {
+      "Description": "\"go\" or \"stop\""
+    },
+    "stop_signal": {
+      "Description": "Presence of stop-signal (0/1)"
+    },
+    "response": {
+      "Description": "Raw response code/label from Inquisit"
+    },
+    "rt": {
+      "Description": "Response time",
+      "Units": "s"
+    },
+    "ssd": {
+      "Description": "Stop-signal delay",
+      "Units": "s"
+    },
+    "correct": {
+      "Description": "Task-defined correctness (0/1) where available"
+    },
+    "stop_success": {
+      "Description": "For stop trials: 1 = successful inhibition (no response), 0 = response occurred"
+    }
+  },
+  "participant_id": {
+    "Description": "BIDS participant identifier"
+  },
+  "block": {
+    "Description": "Block index or name from task"
+  },
+  "trial_index": {
+    "Description": "Within-subject sequential trial index (after filtering practice)"
+  },
+  "trial_type": {
+    "Description": "\"go\" or \"stop\""
+  },
+  "stop_signal": {
+    "Description": "Presence of stop-signal (0/1)"
+  },
+  "response": {
+    "Description": "Raw response code/label from Inquisit"
+  },
+  "rt": {
+    "Description": "Response time",
+    "Units": "s"
+  },
+  "ssd": {
+    "Description": "Stop-signal delay",
+    "Units": "s"
+  },
+  "correct": {
+    "Description": "Task-defined correctness (0/1) where available"
+  },
+  "stop_success": {
+    "Description": "For stop trials: 1 = successful inhibition (no response), 0 = response occurred"
+  }
+}

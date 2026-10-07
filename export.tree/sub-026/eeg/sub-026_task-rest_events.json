@@ -1,0 +1,19 @@
+{
+  "onset": {
+    "Description": "Event onset in seconds relative to the beginning of the EEG recording.",
+    "Units": "s"
+  },
+  "duration": {
+    "Description": "Event duration in seconds. Zero indicates an instantaneous event marker.",
+    "Units": "s"
+  },
+  "sample": {
+    "Description": "Event sample index in the EEG recording, rounded from EEGLAB event latency."
+  },
+  "trial_type": {
+    "Description": "BIDS-compatible event label derived from the original EEG event value."
+  },
+  "value": {
+    "Description": "Original EEG.event.type value."
+  }
+}

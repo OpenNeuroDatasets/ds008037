@@ -1,0 +1,24 @@
+{
+  "name": {
+    "Description": "Channel name."
+  },
+  "type": {
+    "Description": "Channel type."
+  },
+  "units": {
+    "Description": "Physical unit of the channel data."
+  },
+  "reference": {
+    "Description": "Reference used for this channel."
+  },
+  "status": {
+    "Description": "Channel status assigned during BIDS conversion.",
+    "Levels": {
+      "good": "Channel included by default",
+      "bad": "Channel marked bad"
+    }
+  },
+  "status_description": {
+    "Description": "Explanation for channel status."
+  }
+}

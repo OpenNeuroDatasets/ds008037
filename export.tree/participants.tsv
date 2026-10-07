@@ -1,0 +1,124 @@
+participant_id	age	sex	education	smoker	eeg_cap_size
+sub-001	22	female	Bachelor Degree	No	Medium
+sub-005	33	male	Postgraduate Degree	No	Medium
+sub-007	40	male	Postgraduate Degree	No	Medium
+sub-008	23	male	Bachelor Degree	No	Medium
+sub-010	23	male	High School Certificate	No	Large
+sub-012	21	female	n/a	n/a	Medium
+sub-013	22	female	Bachelor Degree	No	Medium
+sub-014	23	female	Bachelor Degree	No	Medium
+sub-016	24	female	Bachelor Degree	No	Small
+sub-018	23	male	High School Certificate	No	Medium
+sub-019	23	female	Bachelor Degree	No	Small
+sub-020	25	female	Bachelor Degree	No	Small
+sub-021	25	male	Bachelor Degree	No	Medium
+sub-022	21	female	n/a	n/a	Medium
+sub-023	24	male	Bachelor Degree	No	Large
+sub-024	24	female	n/a	n/a	Medium
+sub-025	27	female	Postgraduate Degree	No	Medium
+sub-026	23	male	Bachelor Degree	No	Medium
+sub-027	35	male	Postgraduate Degree	No	Large
+sub-028	45	male	Tertiary Certificate	No	Medium
+sub-029	21	male	High School Certificate	No	Medium
+sub-030	23	female	Bachelor Degree	No	Large
+sub-031	22	female	Bachelor Degree	No	Medium
+sub-032	43	female	Bachelor Degree	No	Small
+sub-033	20	female	High School Certificate	No	Medium
+sub-034	20	female	High School Certificate	No	Large
+sub-037	19	female	High School Certificate	No	Medium
+sub-038	23	female	Bachelor Degree	No	Medium
+sub-039	20	male	High School Certificate	No	Medium
+sub-040	19	male	High School Certificate	No	Medium
+sub-041	24	female	Postgraduate Degree	No	Small
+sub-043	42	female	Tertiary Certificate	No	Medium
+sub-044	24	male	Bachelor Degree	No	Large
+sub-045	18	male	High School Certificate	No	Medium
+sub-046	25	female	Postgraduate Degree	No	Medium
+sub-047	22	male	Tertiary Certificate	No	Large
+sub-048	31	female	Postgraduate Degree	Yes socially	Medium
+sub-050	21	female	Bachelor Degree	No	Medium
+sub-051	29	female	n/a	n/a	Medium
+sub-053	24	male	Bachelor Degree	No	Large
+sub-054	31	female	Bachelor Degree	Yes previously	Medium
+sub-055	19	male	High School Certificate	No	Large
+sub-056	20	female	Tertiary Certificate	No	Medium
+sub-057	35	female	Bachelor Degree	No	Medium
+sub-058	27	male	Bachelor Degree	No	Medium
+sub-059	46	female	High School Certificate	No	Medium
+sub-061	32	female	Postgraduate Degree	No	Medium
+sub-062	20	female	Bachelor Degree	No	Medium
+sub-063	23	male	Bachelor Degree	No	Medium
+sub-065	28	male	Bachelor Degree	No	Medium
+sub-067	20	male	High School Certificate	No	Medium
+sub-068	35	female	Bachelor Degree	No	Medium
+sub-071	27	male	High School Certificate	No	Medium
+sub-072	18	female	High School Certificate	No	Medium
+sub-073	27	female	Bachelor Degree	No	Small
+sub-074	25	female	Bachelor Degree	No	Medium
+sub-076	19	male	High School Certificate	No	Medium
+sub-077	23	female	Bachelor Degree	No	Medium
+sub-078	24	female	Bachelor Degree	No	Medium
+sub-079	22	male	High School Certificate	No	Large
+sub-080	41	male	Bachelor Degree	Yes regularly	Medium
+sub-081	19	male	High School Certificate	No	Medium
+sub-082	21	female	Bachelor Degree	Yes regularly	Medium
+sub-083	39	female	Bachelor Degree	Yes regularly	Medium
+sub-084	23	male	High School Certificate	No	Medium
+sub-085	32	female	Bachelor Degree	No	Medium
+sub-086	34	female	Bachelor Degree	No	Medium
+sub-087	39	male	Postgraduate Degree	Yes regularly	Large
+sub-088	32	female	Postgraduate Degree	No	Medium
+sub-091	25	female	Bachelor Degree	No	Medium
+sub-092	28	female	Year 10	Yes regularly	Medium
+sub-093	26	female	Tertiary Certificate	Yes regularly	Medium
+sub-094	19	male	High School Certificate	No	Medium
+sub-095	42	male	Postgraduate Degree	Yes regularly	Medium
+sub-096	22	female	Bachelor Degree	No	Medium
+sub-097	27	female	Bachelor Degree	No	Medium
+sub-098	27	male	Bachelor Degree	No	Large
+sub-099	25	female	Tertiary Certificate	No	Medium
+sub-101	33	female	Bachelor Degree	No	Medium
+sub-102	25	female	Bachelor Degree	No	Medium
+sub-103	21	female	Bachelor Degree	No	Medium
+sub-104	27	male	Bachelor Degree	No	Medium
+sub-105	30	male	Bachelor Degree	Yes regularly	Large
+sub-106	35	female	Bachelor Degree	No	Small
+sub-107	31	female	Bachelor Degree	No	Small
+sub-108	32	female	Tertiary Certificate	No	Large
+sub-109	19	female	High School Certificate	No	Small
+sub-110	43	female	Tertiary Certificate	No	Medium
+sub-111	33	female	Tertiary Certificate	Yes regularly	n/a
+sub-112	25	male	Postgraduate Degree	No	Large
+sub-113	31	female	Bachelor Degree	No	n/a
+sub-114	35	female	Bachelor Degree	No	Large
+sub-116	35	female	Bachelor Degree	No	n/a
+sub-117	29	male	Bachelor Degree	No	n/a
+sub-118	41	male	Bachelor Degree	No	Large
+sub-119	40	female	Bachelor Degree	No	Medium
+sub-121	36	female	Postgraduate Degree	No	Medium
+sub-122	36	male	Bachelor Degree	No	Large
+sub-123	19	female	High School Certificate	No	Medium
+sub-124	36	female	Bachelor Degree	No	Medium
+sub-125	34	female	Tertiary Certificate	Yes regularly	Large
+sub-126	32	female	Bachelor Degree	No	Medium
+sub-127	45	male	Postgraduate Degree	No	Large
+sub-128	31	female	Postgraduate Degree	No	n/a
+sub-129	23	male	Postgraduate Degree	No	Large
+sub-130	23	female	High School Certificate	No	n/a
+sub-131	40	female	Bachelor Degree	No	Large
+sub-132	29	female	Bachelor Degree	No	Small
+sub-133	27	male	Tertiary Certificate	No	Large
+sub-134	29	female	Postgraduate Degree	No	Large
+sub-136	44	male	Postgraduate Degree	No	Large
+sub-137	32	male	Postgraduate Degree	No	Medium
+sub-138	28	male	Tertiary Certificate	No	Large
+sub-139	39	male	Tertiary Certificate	No	Medium
+sub-140	22	female	Bachelor Degree	No	Medium
+sub-141	37	male	High School Certificate	Yes previously	Large
+sub-142	29	female	Bachelor Degree	No	Small
+sub-143	43	male	Bachelor Degree	No	Medium
+sub-145	25	female	Bachelor Degree	No	Medium
+sub-146	34	female	Postgraduate Degree	No	Medium
+sub-147	36	female	Bachelor Degree	No	Large
+sub-148	45	female	Postgraduate Degree	Yes previously	Large
+sub-149	38	male	Postgraduate Degree	Yes regularly	Large
