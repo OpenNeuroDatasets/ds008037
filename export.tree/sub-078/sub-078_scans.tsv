@@ -1,0 +1,6 @@
+filename	acq_time
+eeg/sub-078_task-rest_eeg.set	n/a
+eeg/sub-078_task-tmseeg_acq-parietal_eeg.set	n/a
+eeg/sub-078_task-tmseeg_acq-prefrontal_eeg.set	n/a
+eeg/sub-078_task-tmseeg_acq-premotor_eeg.set	n/a
+eeg/sub-078_task-workingmemory_eeg.set	n/a

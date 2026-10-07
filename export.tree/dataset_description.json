@@ -1,0 +1,31 @@
+{
+    "Name": "The neural dynamics of working memory and transcranial magnetic stimulation",
+    "BIDSVersion": "1.11.1",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "Mana Biabani",
+        "Nigel C. Rogasch"
+    ],
+    "Keywords": [
+        "EEG",
+        "TMS-EEG",
+        "working memory",
+        "transcranial magnetic stimulation",
+        "BIDS",
+        "NIBS-BIDS"
+    ],
+    "EthicsApprovals": [
+        "12723"
+    ],
+    "GeneratedBy": [
+        {
+            "Name": "convert_TMS_EEG_to_BIDS_noNIBSfolder_V2",
+            "Version": "3.1",
+            "Description": "MATLAB converter for TMS-EEG EEGLAB data into BIDS EEG with NIBS metadata stored in eeg/."
+        }
+    ],
+    "ReferencesAndLinks": [],
+    "HowToAcknowledge": "\nIf you use this dataset, please cite the dataset and the following related publications:\n\nBiabani et al., https://doi.org/10.64898/2026.07.12.738085\n\nBiabani et al., https://doi.org/10.1162/imag_a_00349",
+    "DatasetDOI": "doi:10.18112/openneuro.ds008037.v1.0.1"
+}

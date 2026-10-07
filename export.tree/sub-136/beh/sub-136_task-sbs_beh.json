@@ -1,0 +1,49 @@
+{
+  "TaskName": "SymbolSearch",
+  "Columns": {
+    "participant_id": {
+      "Description": "BIDS participant identifier"
+    },
+    "block": {
+      "Description": "Block index/name from task"
+    },
+    "trial_index": {
+      "Description": "Sequential trial index (after filtering practice)"
+    },
+    "response": {
+      "Description": "Raw response code/label as exported"
+    },
+    "correct": {
+      "Description": "Task-defined correctness (0/1)"
+    },
+    "rt": {
+      "Description": "Response time",
+      "Units": "s"
+    },
+    "total_correct_sum": {
+      "Description": "Cumulative count of correct responses"
+    }
+  },
+  "participant_id": {
+    "Description": "BIDS participant identifier"
+  },
+  "block": {
+    "Description": "Block index/name from task"
+  },
+  "trial_index": {
+    "Description": "Sequential trial index (after filtering practice)"
+  },
+  "response": {
+    "Description": "Raw response code/label as exported"
+  },
+  "correct": {
+    "Description": "Task-defined correctness (0/1)"
+  },
+  "rt": {
+    "Description": "Response time",
+    "Units": "s"
+  },
+  "total_correct_sum": {
+    "Description": "Cumulative count of correct responses"
+  }
+}

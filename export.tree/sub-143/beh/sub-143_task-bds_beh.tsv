@@ -1,0 +1,16 @@
+trial_index	blockcode	trialcode	span_length	stimulus	correct_response	response	error_count	mean_length	mean_span
+3	backward_block	b_trial2	2	89	98	98	0	2	0
+4	backward_block	b_trial3	3	945	549	549	0	3	0
+5	backward_block	b_trial4	4	7461	1647	1467	1	3	0
+6	backward_block	b_trial4	4	5378	8735	8735	1	4	0
+7	backward_block	b_trial5	5	21786	68712	6872	1	4	0
+8	backward_block	b_trial5	5	12895	59821	59821	1	5	0
+9	backward_block	b_trial6	6	827936	639728	639728	0	6	0
+10	backward_block	b_trial7	7	2396481	1846932	1846932	0	7	0
+11	backward_block	b_trial8	8	47925186	68152974	9742481	1	7	0
+12	backward_block	b_trial8	8	13786594	49568731	4691732	2	7	0
+13	backward_block	b_trial7	7	3625941	1495263	1964237	1	7	0
+14	backward_block	b_trial7	7	8259314	4139528	4139528	1	7	0
+15	backward_block	b_trial8	8	35976124	42167953	42673958	1	7	0
+16	backward_block	b_trial8	8	75213489	98431257	98431257	1	8	0
+17	backward_block	b_exit	8	75213489	98431257	98431257	0	8	6.41666666666667

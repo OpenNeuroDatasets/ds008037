@@ -1,0 +1,104 @@
+{
+  "BIDSVersion": "1.9.0",
+  "TaskName": "Symmetry Span",
+  "TaskDescription": "Visuospatial complex span task. Participants memorised sequences of red square locations in a 4 x 4 grid while completing symmetry judgements on black-square patterns.",
+  "Instructions": "Practice trials are excluded. Rows correspond to event-level TestBoth trials from the Inquisit task.",
+  "TaskStructure": "The test block contains memory sets with set sizes 2, 3, 4, and 5. Each memory set includes square-location encoding events, intervening symmetry-judgement events, recall responses, and one square_feedback row where set-level memory scoring variables are populated. Some participants may have fewer than the expected number of solve_symmetry rows because only recorded response events are retained.",
+  "ColumnApplicability": "Several columns are intentionally sparse. square_location is populated on show_square rows; symmetry_problem, symmetry_true_answer, and symmetry_correct are populated on symmetry rows; presented_sequence, recalled_sequence, correct_squares, set_correct, sspan_running, total_correct_squares_running, and total_recalled_sets_running are populated on square_feedback rows. Final participant-level variables are repeated across all rows.",
+  "MemoryScoring": "Memory scoring was reconstructed from the main Inquisit event file. correct_squares and set_correct were computed from cumulative Inquisit totals where available. presented_sequence and recalled_sequence were reconstructed from event-level square presentation and recall responses.",
+  "SymmetryScoring": "Symmetry judgement accuracy was reconstructed from stimulus identity and participant response. Stimuli symm01 to symm24 were coded as TRUE, and stimuli symm25 to symm48 were coded as FALSE.",
+  "MissingValue": "n/a",
+  "participant_id": {
+    "Description": "BIDS participant identifier."
+  },
+  "block": {
+    "Description": "Original Inquisit block code."
+  },
+  "block_number": {
+    "Description": "Original Inquisit block number."
+  },
+  "trial_type": {
+    "Description": "Event type.",
+    "Levels": {
+      "show_square": "Presentation of a square location to remember.",
+      "show_symmetry": "Presentation of symmetry stimulus.",
+      "solve_symmetry": "Participant response to symmetry judgement.",
+      "recall_square": "Participant recall response for square locations.",
+      "square_feedback": "End-of-set feedback/scoring row."
+    }
+  },
+  "trial_number": {
+    "Description": "Original Inquisit trial number."
+  },
+  "response": {
+    "Description": "Participant response recorded by Inquisit. For symmetry judgements, TRUE/FALSE or YES/NO responses were mapped against the stimulus-derived correct answer during reconstruction."
+  },
+  "response_time": {
+    "Description": "Response latency converted from Inquisit milliseconds to seconds.",
+    "Units": "s"
+  },
+  "set_size": {
+    "Description": "Number of square locations in the current memory set. Valid values are 2, 3, 4, and 5."
+  },
+  "square_location": {
+    "Description": "Presented square location on show_square rows, expressed as a grid location such as R1C1."
+  },
+  "symmetry_problem": {
+    "Description": "Symmetry stimulus filename on show_symmetry and solve_symmetry rows."
+  },
+  "symmetry_problem_count": {
+    "Description": "Running count of symmetry problems within the current set."
+  },
+  "symmetry_timeout": {
+    "Description": "Symmetry timeout converted from milliseconds to seconds.",
+    "Units": "s"
+  },
+  "presented_sequence": {
+    "Description": "Semicolon-separated presented square sequence, populated on square_feedback rows."
+  },
+  "recalled_sequence": {
+    "Description": "Semicolon-separated recalled square sequence, populated on square_feedback rows. If no valid square response was recorded for a set, this field is n/a."
+  },
+  "correct_squares": {
+    "Description": "Number of correctly recalled squares for the set, computed from cumulative Inquisit totals where available."
+  },
+  "set_correct": {
+    "Description": "Whether the full memory set was recalled correctly, computed from cumulative recalled-set totals where available.",
+    "Coding": "0 = Incorrect set; 1 = Correct set"
+  },
+  "sspan_running": {
+    "Description": "Running symmetry-span score, populated on square_feedback rows."
+  },
+  "total_correct_squares_running": {
+    "Description": "Running total number of correctly recalled squares, populated on square_feedback rows."
+  },
+  "total_recalled_sets_running": {
+    "Description": "Running total number of fully recalled memory sets, populated on square_feedback rows."
+  },
+  "symmetry_true_answer": {
+    "Description": "Correct symmetry judgement derived from stimulus identity. symm01-symm24 are TRUE; symm25-symm48 are FALSE.",
+    "Levels": {
+      "TRUE": "Stimulus was vertically symmetrical.",
+      "FALSE": "Stimulus was not vertically symmetrical."
+    }
+  },
+  "symmetry_correct": {
+    "Description": "Accuracy of the symmetry judgement on solve_symmetry rows.",
+    "Coding": "0 = Incorrect; 1 = Correct"
+  },
+  "symmetry_accuracy_running": {
+    "Description": "Running symmetry judgement accuracy across solve_symmetry rows."
+  },
+  "final_sspan": {
+    "Description": "Final symmetry-span score for the participant, repeated across rows."
+  },
+  "final_total_correct_squares": {
+    "Description": "Final total number of correctly recalled squares, repeated across rows."
+  },
+  "final_total_recalled_sets": {
+    "Description": "Final total number of fully recalled memory sets, repeated across rows."
+  },
+  "final_symmetry_accuracy": {
+    "Description": "Final symmetry judgement accuracy reconstructed from event-level stimulus identity and response, repeated across rows."
+  }
+}

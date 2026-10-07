@@ -1,0 +1,41 @@
+{
+  "trial_index": {
+    "Description": "Monotonic index of trials kept in beh.tsv (practice removed)."
+  },
+  "blockcode": {
+    "Description": "Inquisit block label; main task typically \"backward_block\"."
+  },
+  "trialcode": {
+    "Description": "Inquisit trial label, e.g., b_trial6."
+  },
+  "span_length": {
+    "Description": "Number of digits presented (working-memory load).",
+    "Units": "digits"
+  },
+  "stimulus": {
+    "Description": "Presented digit sequence for the trial."
+  },
+  "correct_response": {
+    "Description": "Correct reversed sequence expected."
+  },
+  "response": {
+    "Description": "Participant-entered sequence."
+  },
+  "error_count": {
+    "Description": "Number of mismatches between response and correct response."
+  },
+  "mean_length": {
+    "Description": "Running average of correctly recalled sequence length (ML).",
+    "Units": "digits"
+  },
+  "mean_span": {
+    "Description": "Estimated backward digit span (MS).",
+    "Units": "digits"
+  },
+  "TaskName": "BackwardsDigitSpan",
+  "Instructions": "Recall each presented sequence in reverse order by clicking digits.",
+  "SamplingFrequency": null,
+  "ReferencesAndLinks": [
+    "Woods et al., 2011"
+  ]
+}
