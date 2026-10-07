@@ -1,8 +1,0 @@
-**/*_nibs.tsv
-**/*_nibs.json
-**/*_markers.tsv
-**/*_markers.json
-conversion_log_tmseeg.tsv
-conversion_log_taskeeg.tsv
-conversion_log_resteeg.tsv
-.gitattributes
